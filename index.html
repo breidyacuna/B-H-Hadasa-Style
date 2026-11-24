@@ -1999,7 +1999,7 @@
       }
     }
 
-    function saveStoreData() {
+    function persistAndAutoSync() {
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(storeData));
       } catch (err) {
